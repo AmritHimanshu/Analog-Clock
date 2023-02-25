@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    width: 31vw;
+    height: 31vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    /* border: 2px solid red; */
+}
+
+.clockImg {
+    width: 31vw;
+    height: 31vw;
+    /* box-shadow: 0px 0px 1px 10px white; */
+}
+
+.center {
+    width: 0.8vw;
+    height: 0.8vw;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 48.6%;
+    top: 49%;
+    opacity: 0.5;
+}
+
+.center:hover {
+    cursor: default;
+}
+
+.hour {
+    position: absolute;
+    border-radius: 20%;
+    background-color: white;
+    height: 16%;
+    width: 2%;
+    top: 34.4%;
+    left: 48.86%;
+    opacity: 0.7;
+    transform-origin: bottom;
+    /* display: none; */
+}
+
+.hour:hover {
+    cursor: default;
+}
+
+.minute {
+    position: absolute;
+    border-radius: 20%;
+    background-color: white;
+    height: 25%;
+    width: 1.5%;
+    top: 25.3%;
+    left: 49.16%;
+    opacity: 0.7;
+    transform-origin: bottom;
+    /* display: none; */
+}
+
+.minute:hover {
+    cursor: default;
+}
+
+.second {
+    position: absolute;
+    border-radius: 20%;
+    background-color: white;
+    height: 30%;
+    width: 0.5%;
+    top: 20.24%;
+    left: 49.6%;
+    opacity: 0.7;
+    transform-origin: bottom;
+    /* display: none; */
+}
+
+.second:hover {
+    cursor: default;
+}
+
+.clock-container {
+    /* background-color: rgba(9, 9, 45, 1); */
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 43vw;
+    height: 4vw;
+    width: 13vw;
+    font-size: 2vw;
+    font-weight: bold;
+    letter-spacing: 0.2vw;
+    color: rgb(211, 211, 211);
+    /* box-shadow: 7px -7px 10px -4px rgb(0, 0, 255); */
+    /* padding: 4px; */
+    /* border-radius: 10px; */
+    /* border: 2px solid red; */
+}
+
+.clock-container:hover {
+    /* background-color: black; */
+    color: white;
+    box-shadow: -3px 3px 10px -4px rgb(99, 99, 122);
+    transition: 100ms ease-in;
+}
